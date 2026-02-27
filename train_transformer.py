@@ -19,7 +19,7 @@ def train_transformer():
         'grid_size': (16, 16, 16),
         'batch_size': 4,
         'learning_rate': 0.001,
-        'num_epochs': 50,
+        'num_epochs': 20,
         'num_workers': 0,
     }
     

@@ -14,12 +14,12 @@ def train_unet3d():
     # 配置参数
     config = {
         'model_type': 'unet3d',
-        'data_dir': './data/data/dataset',
+        'data_dir': './data/dataset',
         'output_dir': './models',
         'grid_size': (16, 16, 16),
         'batch_size': 4,
         'learning_rate': 0.001,
-        'num_epochs': 50,
+        'num_epochs': 20,
         'num_workers': 0,
     }
     
