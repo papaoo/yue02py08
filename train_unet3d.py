@@ -14,7 +14,7 @@ def train_unet3d():
     # 配置参数
     config = {
         'model_type': 'unet3d',
-        'data_dir': './data/dataset',
+        'data_dir': './data/data/dataset',
         'output_dir': './models',
         'grid_size': (16, 16, 16),
         'batch_size': 4,
